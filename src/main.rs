@@ -196,6 +196,5 @@ fn main() -> ! {
     }
 
     begin_sleep!(rtc, rtcio, timer_wakeup, delay);
-    // unreachable!();
 
 }
